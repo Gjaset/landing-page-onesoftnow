@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./components/Home"
 import Notfound from "./components/Notfound"
@@ -9,7 +7,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="*" element={<Notfound />} />
-        
       </Routes>
     </BrowserRouter>
   );
