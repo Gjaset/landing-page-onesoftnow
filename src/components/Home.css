@@ -1,17 +1,20 @@
+.background{
+    background-position: center;
 
-.background {
-  background-position: center;
 }
-.background_image {
-  margin: 0;
-  height: 100vh;
-  width: 1920px;
-  filter: blur(8px);
+.background_image{
+    height: 100vh;
+    width: 1920px;
+    filter: blur(10px);
 }
-.text {
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 2.5rem;
+.text{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5rem;
 }
 
+/* .logo{
+    max-width: 300px;
+
+} */
