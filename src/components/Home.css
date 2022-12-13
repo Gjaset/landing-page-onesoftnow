@@ -1,20 +1,33 @@
-.background{
-    background-position: center;
-    background-color: black;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
-.background_image{
-    height: 100vh;
-    width: 100vw;
-    filter: blur(10px);
-    
+.background_image {
+  height: 100vh;
+  width: 100vw;
+  filter: blur(10px);
 }
-.text{
-    position: absolute;
-    font-size: 2.5rem;
-    z-index: +1;
-    text-transform: capitalize;
+.text {
+  position: absolute;
+  font-size: 2.5rem;
+  z-index: +1;
+  text-transform: capitalize;
+  color: white;
 }
-/* .logo{
-    max-width: 300px;
-
-} */
+.textsub {
+  position: absolute;
+  z-index: 1;
+  max-width: 700px;
+  margin-top: 250px;
+  color: white;
+}
+.logo {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  max-width: 850px;
+  margin-bottom: 350px;
+  z-index: 1;
+}
