@@ -31,3 +31,9 @@
   margin-bottom: 350px;
   z-index: 1;
 }
+.footer_home{
+    z-index: 1;
+    position: absolute;
+    color: white;
+    margin-top: 40%;
+}

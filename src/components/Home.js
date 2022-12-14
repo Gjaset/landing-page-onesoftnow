@@ -17,6 +17,7 @@ const Home = ({ imgSrc }) => {
         orci eget leo dignissim congue.
       </h2>
       <img src={fondo} alt="Fondo" className="background_image" />
+      <footer className="footer_home">Desing by OneSoftNow</footer>
     </div>
   );
 };
