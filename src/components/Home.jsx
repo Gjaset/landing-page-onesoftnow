@@ -1,7 +1,7 @@
-import React from "react";
-import "./Home.css";
-import fondo from "../assets/fondo.png";
-import logo from "../assets/logo.png";
+import React from 'react';
+import './css/Home.css';
+import fondo from '../assets/fondo.png';
+import logo from '../assets/logo.png';
 
 const Home = ({ imgSrc }) => {
   return (
