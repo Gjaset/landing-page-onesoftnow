@@ -18,6 +18,7 @@ const Home = ({ imgSrc }) => {
       </h2>
       <img src={fondo} alt="Fondo" className="background_image" />
       <footer className="footer_home">Desing by OneSoftNow</footer>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"/>
     </div>
   );
 };
