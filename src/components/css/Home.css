@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.animacion-fot {
+  display: block;
+  white-space: nowrap;
+  border-right: 3px solid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  width: 23ch;
+
+  animation: typing 2s steps(23), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 .container {
   display: flex;
   align-items: center;
@@ -42,6 +67,7 @@
   .text {
     position: absolute;
     font-size: 12px;
+    font-family: 'Rubik Mono One', sans-serif;
     text-transform: capitalize;
     color: white;
     z-index: 1;
@@ -71,6 +97,7 @@
   .text {
     position: absolute;
     font-size: 14px;
+    font-family: 'Rubik Mono One', sans-serif;
     text-transform: capitalize;
     color: white;
     z-index: 1;
@@ -100,6 +127,7 @@
   .text {
     position: absolute;
     font-size: 15px;
+    font-family: 'Rubik Mono One', sans-serif;
     text-transform: capitalize;
     color: white;
     z-index: 1;
@@ -128,6 +156,7 @@
 @media (min-width: 375px) {
   .text {
     position: absolute;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 1rem;
     text-transform: capitalize;
     color: white;
@@ -154,9 +183,10 @@
     z-index: 1;
   }
 }
-@media (min-width: 425px) { 
+@media (min-width: 425px) {
   .text {
     position: absolute;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 1.2rem;
     text-transform: capitalize;
     color: white;
@@ -164,7 +194,7 @@
   }
   .textsub {
     position: absolute;
-    font-size:15px;
+    font-size: 15px;
     width: 350px;
     margin-top: 300px;
     color: white;
@@ -214,6 +244,7 @@
 @media (min-width: 640px) {
   .text {
     position: absolute;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 1.5rem;
     text-transform: capitalize;
     color: white;
@@ -243,6 +274,7 @@
 @media (min-width: 768px) {
   .text {
     position: absolute;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 1.5rem;
     text-transform: capitalize;
     color: white;
@@ -271,6 +303,7 @@
 @media (min-width: 1024px) {
   .text {
     position: absolute;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 2rem;
     text-transform: capitalize;
     color: white;
@@ -301,6 +334,7 @@
     position: absolute;
     font-size: 2rem;
     text-transform: capitalize;
+    font-family: 'Rubik Mono One', sans-serif;
     color: white;
     z-index: 1;
   }
@@ -329,6 +363,7 @@
     position: absolute;
     font-size: 2.5rem;
     text-transform: capitalize;
+    font-family: 'Rubik Mono One', sans-serif;
     color: white;
     z-index: 1;
   }
@@ -352,11 +387,12 @@
     z-index: 1;
   }
 }
-@media (min-width: 2560px){
+@media (min-width: 2560px) {
   .text {
     position: absolute;
     font-size: 3rem;
     text-transform: capitalize;
+    font-family: 'Rubik Mono One', sans-serif;
     color: white;
     z-index: 1;
   }
