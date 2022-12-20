@@ -19,6 +19,7 @@ const Home = () => {
       <LogoContainer Logo={logo} />
       <TextContainer />
       <Footer text="Diseñado por OneSoftNow" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"/>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { React, Fragment } from 'react';
 import { motion } from 'framer-motion';
+import "./css/Home.css"
 
 // const fadeIn = (direction = 'up') => {
 //   return {
@@ -24,7 +25,7 @@ const TextContainer = () => {
       <motion.div
         initial={{
           y: -60,
-          x: 40,
+          x: 10,
           opacity: 0,
         }}
         animate={{
@@ -36,13 +37,13 @@ const TextContainer = () => {
           },
         }}
         className="text"
-      >
-        <span>Si tu lo sueñas, nosotros lo programamos.</span>
+        >
+          <span>Si tu lo sueñas, <br/> nosotros lo programamos.</span>
       </motion.div>
       <motion.div
         initial={{
           y: 60,
-          x: 40,
+          x: 10,
           opacity: 0,
         }}
         animate={{

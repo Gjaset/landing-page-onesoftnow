@@ -1,382 +1,583 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-
 .animacion-fot {
-  display: block;
-  white-space: nowrap;
-  border-right: 3px solid;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  width: 23ch;
-
-  animation: typing 2s steps(23), blink 0.5s infinite step-end alternate;
-  overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    border-right: 3px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 23ch;
+    animation: typing 2s steps(23), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
+    from {
+        width: 0;
+    }
 }
 
 @keyframes blink {
-  50% {
-    border-color: transparent;
-  }
+    50% {
+        border-color: transparent;
+    }
 }
+
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 }
+
 .background_image {
-  height: 100vh;
-  width: 100vw;
-  filter: blur(10px);
+    height: 100vh;
+    width: 100vw;
+    filter: blur(10px);
 }
-/* .text {
-  position: absolute;
-  font-size: 2.5rem;
-  text-transform: capitalize;
-  color: white;
-  z-index: +1;
-}
-.textsub {
-  position: absolute;
-  margin-top: 250px;
-  color: white;
-  z-index: 1;
-}
-.logo {
-  position: absolute;
-  margin: 0 auto;
-  width: 50%;
-  max-width: 100%;
-  margin-bottom: 350px;
-  z-index: 1;
-}
-.footer_home {
-  position: absolute;
-  color: white;
-  margin-top: 40%;
-  z-index: 1;
-} */
+
+
 /* Media Queris */
+
+
 /* Telefonos */
+
 @media (min-width: 280px) {
-  .text {
-    position: absolute;
-    font-size: 12px;
-    font-family: 'Rubik Mono One', sans-serif;
-    text-transform: capitalize;
-    color: white;
-    z-index: 1;
-  }
-  .textsub {
-    position: absolute;
-    font-size: 10px;
-    width: 250px;
-    margin-top: 180px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 100%;
-    margin-bottom: 200px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 150%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-size: 12px;
+        text-transform: capitalize;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        font-size: 10px;
+        width: 250px;
+        margin-top: 180px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 200px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 150%;
+        z-index: 1;
+    }
 }
+
 @media (min-width: 300px) {
-  .text {
-    position: absolute;
-    font-size: 14px;
-    font-family: 'Rubik Mono One', sans-serif;
-    text-transform: capitalize;
-    color: white;
-    z-index: 1;
-  }
-  .textsub {
-    position: absolute;
-    font-size: 10px;
-    width: 280px;
-    margin-top: 180px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 100%;
-    margin-bottom: 200px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 150%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        font-size: 10px;
+        width: 280px;
+        margin-top: 180px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 200px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 150%;
+        z-index: 1;
+    }
 }
+
 @media (min-width: 320px) {
-  .text {
-    position: absolute;
-    font-size: 15px;
-    font-family: 'Rubik Mono One', sans-serif;
-    text-transform: capitalize;
-    color: white;
-    z-index: 1;
-  }
-  .textsub {
-    position: absolute;
-    font-size: 10px;
-    width: 300px;
-    margin-top: 180px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 90%;
-    margin-bottom: 200px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 150%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-size: 15px;
+        font-family: 'Rubik Mono One', 'sans-seri'f;
+        text-transform: capitalize;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        font-size: 11px;
+        width: 250px;
+        margin-top: 230px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 90%;
+        margin-bottom: 200px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 150%;
+        z-index: 1;
+    }
 }
+
 @media (min-width: 375px) {
-  .text {
-    position: absolute;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1rem;
-    text-transform: capitalize;
-    color: white;
-    z-index: 1;
-  }
-  .textsub {
-    position: absolute;
-    font-size: 15px;
-    width: 300px;
-    margin-top: 250px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 100%;
-    margin-bottom: 230px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 130%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 8px;
+        text-transform: capitalize;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        font-size: 15px;
+        width: 300px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 230px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 130%;
+        z-index: 1;
+    }
 }
+
+@media (min-width: 400px) {
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: white;
+        z-index: 1;
+        
+    }
+    .textsub {
+        position: absolute;
+        font-size: 15px;
+        width: 300px;
+        margin-top: 320px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 220px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 180%;
+        z-index: 1;
+    }
+}
+
 @media (min-width: 425px) {
-  .text {
-    position: absolute;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    color: white;
-    z-index: 1;
-  }
-  .textsub {
-    position: absolute;
-    font-size: 15px;
-    width: 350px;
-    margin-top: 300px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 100%;
-    margin-bottom: 230px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 120%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 10px;
+        text-transform: capitalize;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        font-size: 15px;
+        width: 350px;
+        margin-top: 300px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 230px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 170%;
+        z-index: 1;
+    }
 }
+
+@media (min-width: 450px) {
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 10px;
+        text-transform: capitalize;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        font-size: 15px;
+        width: 350px;
+        margin-top: 300px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 230px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 120%;
+        z-index: 1;
+    }
+}
+
 @media (min-width: 500px) {
-  .text {
-    position: absolute;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    color: white;
-    z-index: +1;
-  }
-  .textsub {
-    position: absolute;
-    width: 500px;
-    margin-top: 250px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 90%;
-    margin-bottom: 350px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 80%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-size: 10px;
+        text-transform: capitalize;
+        color: white;
+        z-index: +1;
+    }
+    .textsub {
+        position: absolute;
+        width: 400px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 100%;
+        z-index: 1;
+    }
 }
+
+@media (min-width: 520px) {
+    .text {
+        position: absolute;
+        font-size: 12px;
+        text-transform: capitalize;
+        color: white;
+        z-index: +1;
+    }
+    .textsub {
+        position: absolute;
+        width: 440px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 80%;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 600px) {
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: white;
+        z-index: +1;
+    }
+    .textsub {
+        position: absolute;
+        width: 500px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 80%;
+        z-index: 1;
+    }
+}
+
 @media (min-width: 640px) {
-  .text {
-    position: absolute;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    color: white;
-    z-index: +1;
-  }
-  .textsub {
-    position: absolute;
-    width: 500px;
-    margin-top: 250px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 70%;
-    margin-bottom: 350px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 80%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: white;
+        z-index: +1;
+    }
+    .textsub {
+        position: absolute;
+        width: 500px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 80%;
+        z-index: 1;
+    }
 }
+
+@media (min-width: 700px) {
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: white;
+        z-index: +1;
+    }
+    .textsub {
+        position: absolute;
+        width: 500px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 80%;
+        z-index: 1;
+    }
+}
+
+
 /* Computadores */
+
 @media (min-width: 768px) {
-  .text {
-    position: absolute;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    color: white;
-    z-index: +1;
-  }
-  .textsub {
-    position: absolute;
-    width: 480px;
-    margin-top: 250px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 70%;
-    margin-bottom: 350px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 60%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: white;
+        z-index: +1;
+    }
+    .textsub {
+        position: absolute;
+        width: 650px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 60%;
+        z-index: 1;
+    }
 }
+
 @media (min-width: 1024px) {
-  .text {
-    position: absolute;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 2rem;
-    text-transform: capitalize;
-    color: white;
-    z-index: +1;
-  }
-  .textsub {
-    position: absolute;
-    width: 650px;
-    margin-top: 250px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 70%;
-    margin-bottom: 350px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 50%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: white;
+        z-index: +1;
+    }
+    .textsub {
+        position: absolute;
+        width: 650px;
+        margin-top: 200px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 70%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 50%;
+        z-index: 1;
+    }
 }
+
 @media (min-width: 1280px) {
-  .text {
-    position: absolute;
-    font-size: 2rem;
-    text-transform: capitalize;
-    font-family: 'Rubik Mono One', sans-serif;
-    color: white;
-    z-index: 1;
-  }
-  .textsub {
-    position: absolute;
-    width: 650px;
-    margin-top: 250px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 65%;
-    margin-bottom: 350px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    color: white;
-    margin-top: 50%;
-    z-index: 1;
-  }
+    .text {
+        position: absolute;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-family: 'Rubik Mono One', sans-serif;
+        color: white;
+        z-index: 1;
+
+    }
+    .textsub {
+        position: absolute;
+        font-size: 20px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 65%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 50%;
+        z-index: 1;
+    }
 }
+
 @media (min-width: 1536px) {
-  .text {
+    .text {
+        position: absolute;
+        font-size: 23px;
+        text-transform: capitalize;
+        font-family: 'Rubik Mono One', sans-serif;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        width: 750px;
+        margin-top: 250px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 50%;
+        margin-bottom: 350px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        color: white;
+        margin-top: 40%;
+        z-index: 1;
+    }
+}
+@media (min-width: 2560px) {
+    .text {
+        position: absolute;
+        font-size: 35px;
+        text-transform: capitalize;
+        font-family: 'Rubik Mono One', sans-serif;
+        color: white;
+        z-index: 1;
+    }
+    .textsub {
+        position: absolute;
+        width: 1100px;
+        font-size: 30px;
+        margin-top: 350px;
+        color: white;
+        z-index: 1;
+    }
+    .logo {
+        position: absolute;
+        width: 50%;
+        margin-bottom: 500px;
+        z-index: 1;
+    }
+    .footer_home {
+        position: absolute;
+        font-size: 35px;
+        color: white;
+        margin-top: 40%;
+        z-index: 1;
+    }
+}
+
+
+/* .text {
     position: absolute;
     font-size: 2.5rem;
     text-transform: capitalize;
-    font-family: 'Rubik Mono One', sans-serif;
     color: white;
-    z-index: 1;
+    z-index: +1;
   }
   .textsub {
     position: absolute;
-    width: 750px;
     margin-top: 250px;
     color: white;
     z-index: 1;
   }
   .logo {
     position: absolute;
+    margin: 0 auto;
     width: 50%;
+    max-width: 100%;
     margin-bottom: 350px;
     z-index: 1;
   }
@@ -385,36 +586,4 @@
     color: white;
     margin-top: 40%;
     z-index: 1;
-  }
-}
-@media (min-width: 2560px) {
-  .text {
-    position: absolute;
-    font-size: 3rem;
-    text-transform: capitalize;
-    font-family: 'Rubik Mono One', sans-serif;
-    color: white;
-    z-index: 1;
-  }
-  .textsub {
-    position: absolute;
-    width: 900px;
-    font-size: 25px;
-    margin-top: 350px;
-    color: white;
-    z-index: 1;
-  }
-  .logo {
-    position: absolute;
-    width: 50%;
-    margin-bottom: 500px;
-    z-index: 1;
-  }
-  .footer_home {
-    position: absolute;
-    font-size: 35px;
-    color: white;
-    margin-top: 40%;
-    z-index: 1;
-  }
-}
+  } */
